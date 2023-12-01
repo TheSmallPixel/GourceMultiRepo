@@ -1,7 +1,7 @@
 # GourceMultiRepo
 Gource shell script to combine all repository changes in one file
 ```
-# Define the base path
+# Define the base path of the repository
 $basePath = "D:\Projects" 
 
 # Get all directories in the base path
