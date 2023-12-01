@@ -1,8 +1,8 @@
 # Gource Multi Repo
 Gource shell script to combine all repository changes in one file
 ```
-# Define the base path of the repository
-$basePath = "D:\Projects" 
+# Define the base path
+$basePath = "D:\Projects" # Replace with your actual path
 
 # Get all directories in the base path
 $directories = Get-ChildItem -Path $basePath -Directory
@@ -14,9 +14,13 @@ $logCounter = 1
 foreach ($dir in $directories) {
     # Change to the directory
     Set-Location $dir.FullName
+
     # Run the gource command
 	$logFilePath = "$basePath\gource$logCounter.txt"
-    gource   --output-custom-log $logFilePath $basePath\$dir
+    gource --output-custom-log $logFilePath $basePath\$dir
+	# Print log file creation
+	Write-Host "Gource output for $dir to: $basePath\$dir"
+    # Increase the counter for the next iteration
     $logCounter++
 }
 
@@ -31,6 +35,7 @@ Get-ChildItem -Filter "gource*.txt" |
 
 # Run gource with the combined log file
 gource combined.txt --seconds-per-day 0.01
+
 
 ```
 
