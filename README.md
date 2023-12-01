@@ -33,4 +33,6 @@ Get-ChildItem -Filter "gource*.txt" |
 gource combined.txt --seconds-per-day 0.01
 
 ```
+
+# Enjoy
 ![image](https://github.com/TheSmallPixel/GourceMultiRepo/assets/25280244/f18a7e22-0cf1-44da-b49a-3fac7ccf3459)
