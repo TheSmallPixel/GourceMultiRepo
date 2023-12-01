@@ -1,4 +1,8 @@
 # Gource Multi Repo
+Install Gource
+```
+	https://gource.io/
+```
 Gource shell script to combine all repository changes in one file
 ```
 # Define the base path
