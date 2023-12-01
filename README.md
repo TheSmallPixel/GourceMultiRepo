@@ -1,4 +1,4 @@
-# GourceMultiRepo
+# Gource Multi Repo
 Gource shell script to combine all repository changes in one file
 ```
 # Define the base path of the repository
@@ -34,5 +34,5 @@ gource combined.txt --seconds-per-day 0.01
 
 ```
 
-# Enjoy
+# Enjoy 🚀
 ![image](https://github.com/TheSmallPixel/GourceMultiRepo/assets/25280244/f18a7e22-0cf1-44da-b49a-3fac7ccf3459)
