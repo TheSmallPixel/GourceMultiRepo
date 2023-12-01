@@ -1,9 +1,9 @@
 # Gource Multi Repo
-Install Gource
+Install Gource:
 ```
 https://gource.io/
 ```
-Gource shell script to combine all repository changes in one file
+Create a new shellscript *.ps1:
 ```
 # Define the base path
 $basePath = "D:\Projects" # Replace with your actual path
@@ -39,8 +39,10 @@ Get-ChildItem -Filter "gource*.txt" |
 
 # Run gource with the combined log file
 gource combined.txt --seconds-per-day 0.01
-
-
+```
+Run the script
+```
+.\\GourceCombine.ps1
 ```
 
 # Enjoy 🚀
