@@ -1,4 +1,5 @@
 # Gource Multi Repo
+Enjoy seeing the progress you've made over all your years of development in just one short animation!
 Install Gource:
 ```
 https://gource.io/
