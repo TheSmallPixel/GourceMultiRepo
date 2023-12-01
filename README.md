@@ -1,7 +1,7 @@
 # Gource Multi Repo
 Install Gource
 ```
-	https://gource.io/
+https://gource.io/
 ```
 Gource shell script to combine all repository changes in one file
 ```
